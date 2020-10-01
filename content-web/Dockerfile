@@ -1,4 +1,4 @@
-FROM node:dubnium-alpine AS base
+FROM node:dubnium-alpine AS build
 RUN apk -U add curl
 WORKDIR /usr/src/app
 EXPOSE 3000
